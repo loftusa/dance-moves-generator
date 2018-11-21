@@ -13,10 +13,13 @@ import genfuncs
 import random
 
 MOVES = ['right-side pass', 'left-side pass', 'sugar-push',
-         'sugar tuck', 'whip', 'inside turn', 'outside turn']
+         'sugar tuck', 'whip', 'inside turn', 'outside turn',]
 
 
-if __name__ == "__main__":
+def main():
     first = genfuncs.random_move(MOVES)
     second = genfuncs.random_move(MOVES)
     print('Combine {0} and {1}'.format(first, second))
+
+if __name__ == "__main__":
+    main()
