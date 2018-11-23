@@ -21,7 +21,7 @@ OPERATORS = ['Rock and Go!']
 
 
 def main():
-	print("\nm : random move\n" + "c : random two moves\n" + "q : quit")
+	print("\nm : random move\n" + "c : random two moves\n" + "q : quit\n")
 	mv = MOVES.copy()
 	mvs = genfuncs.random_comb(MOVES.copy())
 
